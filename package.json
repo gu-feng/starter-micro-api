@@ -1,13 +1,21 @@
 {
-  "name": "starter-micro-api",
+  "name": "express-hello-world",
   "version": "1.0.0",
-  "description": "Cyclic.sh micro api starter",
+  "description": "Express Hello World",
   "main": "index.js",
+  "repository": "",
+  "author": "Misaka-blog",
+  "license": "AGPL-3.0",
+  "private": false,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
+    "express": "^4.18.2",
+    "http-proxy-middleware": "^2.0.6",
+    "request": "^2.88.2"
+  },
+  "engines": {
+    "node": ">=14"
   }
 }
